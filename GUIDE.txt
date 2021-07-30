@@ -1,0 +1,10 @@
+1. Hent den seneste udgave af puzzless https://database.lichess.org/#puzzles
+   	- Eller hvis denne er forsvundet, kan en tidligere udgave findes her: https://drive.google.com/file/d/1piAr3j6ydJ0UKQbq6eqmV-NcLwGVnd7P/view?usp=sharing
+	via info.chessdose@gmail.com / Nummer12 profilens google drive... 
+
+1. Udpak lichess_db_puzzle.csv.bz2 med fx.: 7-zip til filen lichess_db_puzzle.csv
+
+2. Kør scripted generatePuzzleFiles.php der generere difficulty range files i "generated" mappen. 
+	- chessdose-puzzles-generator mappen skal ligge på en (L)AMP server fx. https://laragon.org/) for kunne køre
+
+3. PuzzleRanges filen ligges i C:\apps\chessdose\src\pageComponents resten i C:\apps\chessdose\public\puzzleFiles
